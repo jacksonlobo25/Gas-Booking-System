@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/progress_indeterminate_horizontal"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over"
+    tools:context=".Invoice">
+
+
+    <TableLayout
+        android:layout_width="413dp"
+        android:layout_height="598dp"
+        android:padding="30px"
+        tools:layout_editor_absoluteX="4dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50px"
+            android:padding="30px">
+
+            <TextView
+                android:id="@+id/t090"
+                android:layout_width="51dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView29r"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="     INVOICE"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="160dp"
+                tools:layout_editor_absoluteY="40dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50px"
+            android:padding="30px">
+
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView2r"
+                android:layout_width="169dp"
+                android:layout_height="163dp"
+                android:src="@drawable/img"
+                tools:layout_editor_absoluteX="121dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50px"
+            android:padding="30px">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username:"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/useridr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80px"
+                android:fontFamily="@font/castoro"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50px"
+            android:padding="30px">
+
+            <TextView
+                android:id="@+id/textcc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DateTime:"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/datetimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80px"
+                android:fontFamily="@font/castoro"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50px"
+            android:padding="30px">
+
+            <TextView
+                android:id="@+id/textcc8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount :"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/amtr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80px"
+                android:fontFamily="@font/andika_new_basic"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50px"
+            android:padding="30px">
+
+            <TextView
+                android:id="@+id/m6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imar"
+                android:layout_width="169dp"
+                android:layout_height="163dp"
+
+                android:rotation="-25"
+                android:src="@drawable/approved"
+                tools:layout_editor_absoluteX="121dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+        </TableRow>
+    </TableLayout>
+
+    <!--    <TextView-->
+<!--        android:id="@+id/useridr"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="TextView"-->
+<!--        tools:layout_editor_absoluteX="176dp"-->
+<!--        tools:layout_editor_absoluteY="536dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/datetimer"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="TextView"-->
+<!--        tools:layout_editor_absoluteX="176dp"-->
+<!--        tools:layout_editor_absoluteY="439dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/amtr"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="TextView"-->
+<!--        tools:layout_editor_absoluteX="176dp"-->
+<!--        tools:layout_editor_absoluteY="632dp" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>

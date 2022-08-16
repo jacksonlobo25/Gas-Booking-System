@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#883E3E"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="145dp"
+        android:fontFamily="@font/bungee_shade"
+        android:text="GAS"
+        android:textColor="#A50404"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnComplaint"
+        android:layout_width="215dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="105dp"
+        android:backgroundTint="#A81414"
+        android:scaleX="1"
+        android:text="Feedback Complaints"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnSafety"
+        android:layout_width="215dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#A81414"
+        android:scaleX="1"
+        android:text="Safety  instructions"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnComplaint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPrevBook" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="84dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/booking_system"
+        android:textColor="#7C0404"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.382"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnMyAC"
+        android:layout_width="215dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="98dp"
+        android:backgroundTint="#A81414"
+        android:scaleX="1"
+        android:text="My Account"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnBook"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_chainStyle="spread_inside" />
+
+    <Button
+        android:id="@+id/btnBook"
+        android:layout_width="215dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginEnd="97dp"
+        android:backgroundTint="#A81414"
+        android:scaleX="1"
+        android:text="Book Refill"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnPrice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMyAC" />
+
+    <Button
+        android:id="@+id/btnPrice"
+        android:layout_width="215dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginEnd="98dp"
+        android:backgroundTint="#A81414"
+        android:scaleX="1"
+        android:text="LPG Price"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnPrevBook"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBook" />
+
+    <Button
+        android:id="@+id/btnPrevBook"
+        android:layout_width="215dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginEnd="98dp"
+        android:backgroundTint="#A81414"
+        android:scaleX="1"
+        android:text="Previous Bookings"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnSafety"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPrice" />
+
+    <Button
+        android:id="@+id/btnLout"
+        android:layout_width="74dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="306dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#05710A"
+        android:text="Logout"
+        android:textColor="#F4EFEF"
+        android:textSize="9sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
